@@ -1,0 +1,351 @@
+body, *{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, a, span, p, input{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+/********************************
+ header section css code start
+********************************/
+
+.header{
+	padding: 32px 0px;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.h-left, .h-right{
+	display: flex;
+    align-items: center;
+}
+
+.h-left ul{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.h-left ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0 12px;
+}
+
+.h-left ul li a{
+	color: #292640;
+	font-weight: 600;
+}
+
+.h-left ul li a:hover{
+	color: #FF6162;
+}
+
+.h-right button{
+	background: #FF6162;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 3px;
+    font-size: 600;
+    cursor: pointer;
+}
+
+.h-right button:hover{
+	background: #292640;
+}
+
+/********************************
+ header section css code end
+********************************/
+
+/********************************
+ banner section css code start
+********************************/
+
+.banner{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+    align-items: center
+}
+
+.container{
+
+}
+
+.banner-text{
+	display: flex;
+}
+
+.b-left, .b-right{
+	flex-basis: 50%;
+}
+
+.b-left h1{
+	color: #292640;
+    font-size: 52px;
+    font-width: 700;
+}
+
+.b-left p{
+	color: #a2a4a5;
+    font-size: 21px;
+    margin-right: 22px;
+    text-align: left;
+    line-height: 32px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.b-left a i{
+	height: 40px;
+    width: 40px;
+    color: #292640;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-top: 13px
+}
+
+.b-left a i:hover{
+	background: #292640;
+	border-color: #292640;
+	color: white;
+}
+
+/********************************
+ banner section css code end
+********************************/
+
+/****************************************
+ portfolio gallery section css code end
+****************************************/
+
+.portfolio{
+	padding: 30px 0;
+}
+
+.gallery{
+
+}
+
+.gallery h3, .feature-item h3{
+	color: #292640;
+	font-size: 36px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.gallery p, .feature-item p{
+	text-align: center;
+	font-size: 19px;
+    line-height: 28px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.gallery-item{
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.gallery-item .item-1 .item-2 .item-3 .item-4{
+	transition: 0.4s;
+}
+
+.gallery-item .item-1:hover{
+	transition: 0.4s;
+	cursor: pointer;
+	box-shadow: 8px 8px 20px rgb(0 0 0 / 30%);
+}
+
+.gallery-item .item-2:hover{
+	transition: 0.4s;
+	cursor: pointer;
+	box-shadow: 8px 8px 20px 10px rgb(0 0 0 / 30%);
+}
+
+.gallery-item .item-3:hover{
+	transition: 0.4s;
+	cursor: pointer;
+	box-shadow: 8px 8px 20px 10px rgb(0 0 0 / 30%);
+}
+
+.gallery-item .item-4:hover{
+	transition: 0.4s;
+	cursor: pointer;
+	box-shadow: 8px 8px 20px 10px rgb(0 0 0 / 30%);
+}
+
+/****************************************
+ portfolio gallery section css code end
+****************************************/
+
+/****************************************
+ line section css code start
+****************************************/
+
+.line{
+	width: 3px;
+	height: 70px;
+	background: #a2a4a5;
+	margin: 40px auto;
+}
+
+/****************************************
+line section css code end
+****************************************/
+
+/****************************************
+feature section css code end
+****************************************/
+
+.features{
+	padding: 40px 0;
+}
+
+.items{
+	display: flex;
+}
+
+.subtitle{
+	margin-bottom: 32px;
+}
+
+.item{
+	text-align: center;
+    background: #e6e0e0;
+    margin: 16px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.item p{
+	font-style: normal; !important;
+	text-align: justify;
+}
+
+.features .item{
+	background: #f5f5f5;
+	margin: 16px;
+	padding: 24px;
+	border-radius: 6px;
+	box-shadow: 10px 10px 20px rgb(0 0 0 / 10%);
+    transition: 0.5s;
+}
+
+.features .item:hover{
+	transition: 0.5s;
+	background: white;
+}
+
+.feature-item a i{
+	height: 60px;
+    width: 60px;
+    background: white;
+    border-radius: 50%;
+    color: red;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+}
+
+.feature-item p{
+
+}
+
+.feature-item h5{
+	font-size: 20px;
+	margin: 16px 0;
+}
+
+/****************************************
+feature section css code end
+****************************************/
+
+/****************************************
+footer section css code start
+****************************************/
+
+.footer{
+	padding: 40px 0;
+}
+
+.footer .f-head{
+	padding: 30px 0;
+}
+
+.f-head{
+	background: #292640;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.f-head h1{
+	margin-bottom: 30px;
+}
+
+.f-head button{
+	background: #FF6162;
+	border: none;
+	font-size: 20px;
+	text-align: center;
+	color: ghostwhite;
+	padding: 10px 10px;
+	border-radius: 8px;
+	cursor: pointer;
+	margin-bottom: 16px;
+}
+
+.f-head-logo{
+	
+}
+
+.f-head-logo img{
+	height: 34px;
+    width: 98px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.f-head-icon{
+	text-align: right;
+    margin-right: 36px;
+    margin-top: 15px;
+    padding-top: 5px;
+}
+.f-head-icon a i{
+	height: 40px;
+    width: 40px;
+    color: #292640;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    margin-top: 13px;
+    background: #8D8B98;    
+}
+
+/****************************************
+footer section css code end
+****************************************/
